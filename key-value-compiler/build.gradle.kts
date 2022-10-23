@@ -20,7 +20,7 @@ publishing {
         create("maven_public", MavenPublication::class) {
             groupId = "ke.bb"
             artifactId = "key-value-compiler"
-            version = "1.0.2"
+            version = "1.1.0"
             from(components.getByName("java"))
         }
     }
